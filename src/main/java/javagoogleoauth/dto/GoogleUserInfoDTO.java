@@ -1,4 +1,4 @@
-package dto;
+package javagoogleoauth.dto;
 
 public class GoogleUserInfoDTO {
 

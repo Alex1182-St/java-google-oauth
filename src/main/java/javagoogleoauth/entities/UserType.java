@@ -1,4 +1,4 @@
-package entities;
+package javagoogleoauth.entities;
 
 public enum UserType {
 

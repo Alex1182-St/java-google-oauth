@@ -1,9 +1,9 @@
-package services;
+package javagoogleoauth.services;
 
-import daoRepositories.UserRepository;
-import dto.GoogleUserInfoDTO;
-import entities.User;
-import entities.UserType;
+import javagoogleoauth.daoRepositories.UserRepository;
+import javagoogleoauth.dto.GoogleUserInfoDTO;
+import javagoogleoauth.entities.User;
+import javagoogleoauth.entities.UserType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserRequest;
 import org.springframework.security.oauth2.client.oidc.userinfo.OidcUserService;
