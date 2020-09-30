@@ -3,7 +3,7 @@ package javagoogleoauth.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table(name = "user_google")
 public class User {
 
     @Id
@@ -11,14 +11,19 @@ public class User {
     @Column(updatable = false, nullable = false, unique = true)
     private int id;
 
+    @Column(nullable = false)
     private String name;
 
+    @Column(nullable = false, unique = true)
     private String email;
 
+    @Column(nullable = false)
     private String imageUrl;
 
+    @Column(nullable = false)
     private UserType userType;
 
+    @Column(nullable = false)
     private String password;
 
 
